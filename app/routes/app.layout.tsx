@@ -8,7 +8,7 @@ export default function AppLayout() {
         <Navigation />
       </div>
 
-      <main className="max-h screen overflow-y-auto w-full container mx-auto">
+      <main className="max-h-screen overflow-y-auto w-full container mx-auto">
         <div className="px-4 md:px-10 w-full">
           <Outlet />
         </div>
