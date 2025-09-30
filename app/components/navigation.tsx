@@ -1,7 +1,7 @@
 import { NavLink } from "react-router";
 import { useState } from "react";
 // import Logo from "./logo";
-// import { ThemeSelect } from "./theme-select";
+import { ThemeSelect } from "./ui/theme.select";
 import { Button } from "./ui/button";
 import { Menu, X } from "lucide-react";
 
@@ -15,7 +15,7 @@ export function Navigation() {
   return (
     <>
       <div className="hidden sm:block fixed top-0 right-0 p-4">
-        {/* <ThemeSelect /> */}
+        <ThemeSelect />
       </div>
 
       <MobileNavigation />
